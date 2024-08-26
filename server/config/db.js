@@ -3,7 +3,7 @@ mongoose.set("strictQuery", true, "useNewUrlParser", true);
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.REACT_APP_MONGODB_URI);
+    await mongoose.connect(process.env.MONGODB_URI);
     console.log("MongoDB is Connected...");
   } catch (err) {
     console.error(err.message);

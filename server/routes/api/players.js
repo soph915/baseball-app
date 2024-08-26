@@ -1,5 +1,5 @@
 const OpenAIApi = require('openai');
-const openai = new OpenAIApi.OpenAI({ apiKey: REACT_APP_OPENAI_API_KEY });
+const openai = new OpenAIApi.OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 const express = require('express');
 const router = express.Router();

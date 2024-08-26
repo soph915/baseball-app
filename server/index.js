@@ -1,9 +1,10 @@
+require('dotenv').config({path: '../.env'});
+
 const express = require('express');
 const connectDB = require('./config/db')
 const routes = require('./routes/api/players')
 const cors = require("cors");
 const bodyParser = require("body-parser");
-
 
 const app = express();
 
