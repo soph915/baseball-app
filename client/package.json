@@ -1,14 +1,25 @@
 {
   "name": "fraction-baseball",
   "version": "0.1.0",
+  "proxy": "http://localhost:8082",
   "private": true,
   "dependencies": {
+    "@ai-sdk/openai": "^0.0.53",
+    "@anthropic-ai/sdk": "^0.27.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "ai": "^3.3.17",
+    "axios": "^1.7.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "mongoose": "^8.5.3",
+    "openai": "^4.56.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
     "react-scripts": "5.0.1",
+    "usellm": "^0.13.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

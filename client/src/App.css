@@ -1,5 +1,15 @@
 .App {
-  text-align: center;
+  padding: 20px;
+}
+
+.playerlist {
+  padding: 10px;
+}
+
+.player {
+  margin: 20px;
+  padding: 5px;
+  width: 80%;
 }
 
 .App-logo {
